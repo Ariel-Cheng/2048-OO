@@ -1,0 +1,177 @@
+body{
+    background: #E6E6E6;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+#container{
+    border: 1px solid #BBADA0;
+    width: 525px;
+    border-radius: 10px;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;/*设置这个属性之后，我们设置的width才会包括padding和边框，否则就只是内容区有525px*/
+
+}
+
+@media all and (max-width: 520px){
+    #container{
+        width: 280px;
+        padding: 10px;
+        box-sizing: border-box;/*设置这个属性之后，我们设置的width才会包括padding和边框，否则就只是内容区有525px*/
+
+    }
+}
+
+#header{
+    width: 495px;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+#title{
+    font-size: 3.125em;
+    color: #776E65;
+    font-weight: 700;
+}
+#result{
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    /*line-height: 25px;*/
+}
+#score{
+    width: 90px;
+    background: #BBADA0;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    height:50px;
+    border-radius: 5px;
+}
+#best{
+    width: 90px;
+    background: #BBADA0;
+    margin-left: 20px;
+    /*margin-right: 10px;*/
+    height:50px;
+    border-radius: 5px;
+}
+.clear{
+    clear: both;
+}
+#game-intro {
+    line-height: inherit;
+    float: none;
+    width: 100% !important;
+}
+#restart-button{
+    background: #8f7a66;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    /*margin-right:28px;*/
+}
+#game-intro p{
+    line-height:1.25;
+    display: inline-block;/*p本身是块级元素，独占一行，浮动框只会去靠近这个框，所以要把p变成行内元素就可以跟按钮一行了*/
+}
+@media all and (max-width: 520px){
+    #header{
+        width: 260px;
+    }
+    #title{
+        font-weight: 300;
+        font-size:2em;
+    }
+    #result{
+        font-size: 0.7em;
+    }
+    #score{
+        width: 45px;
+        height:25px;
+    }
+    #best{
+        width: 45px;
+        margin-left: 10px;
+        height:25px;
+
+    }
+    #restart-button{
+        padding: 0 5px;
+        height: 20px;
+        font-size: 0.7em;
+        line-height: 20px;
+        float: left;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    #game-intro p{
+        font-size: 0.5em;
+
+    }
+}
+#game-container{
+    width:495px;
+    height: 495px;
+    border-radius: 0.625em;
+    cursor: default;
+    background: #BBADA0;
+    /*margin-top: 5px;*/
+}
+.grid-cell{
+    /*content: " ";*/
+    background: #ccc0b3;
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+    text-align: center;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+
+@media all and (max-width: 520px){
+    #game-container{
+        width:260px;
+        height: 260px;
+        margin:0 auto;
+    }
+    .grid-cell{
+        /*content: " ";*/
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+
+        width:45px;
+        height: 45px;
+    }
+    #game-container .grid-cell{
+        font-size: 7px;
+    }
+    #game-container #win{
+        font-size: 70px;
+    }
+    #game-container #end{
+        font-size: 70px;
+    }
+}
+
+#win{
+    font-size: 175px;
+    text-align: center;
+    color: #FF9900;
+    line-height: 233px;
+}
+.end{
+    content: "you lose!";
+    font-size: 175px;
+    text-align: center;
+    color: gray;
+    background: black;
+    line-height: 233px;
+}

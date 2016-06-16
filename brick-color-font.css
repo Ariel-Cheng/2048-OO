@@ -1,0 +1,78 @@
+.mode2{
+    font-size: 6.25em;
+    color: #776E65;
+    background: #EEE4DA;
+    line-height: 1em;
+    border-radius: 50%;
+}
+.mode4{
+    font-size: 6.25em;
+    color: #776E65;
+    background: #EDE0C8;
+    line-height: 1em;
+    border-radius: 50%;
+}
+.mode8{
+    font-size: 6.25em;
+    color: #f9f6f2;
+    background: #f2b179;
+    line-height: 1em;
+    border-radius: 50%;
+}
+.mode16{
+    font-size: 5em;
+    color: #f9f6f2;
+    background: #f59563;
+    line-height: 1.25em;
+    border-radius: 50%;
+}
+.mode32{
+    font-size: 5em;
+    color: #f9f6f2;
+    background: #f67c5f;
+    line-height: 1.25em;
+    border-radius: 50%;
+}
+.mode64{
+    font-size: 5em;
+    color: #f9f6f2;
+    background: #f65e3b;
+    line-height: 1.25em;
+    border-radius: 50%;
+}
+.mode128{
+    font-size: 3.75em;
+    color: #f9f6f2;
+    background: #edcf72;
+    line-height:1.67em;
+    border-radius: 50%;
+}
+.mode256{
+    font-size: 3.75em;
+    color: #f9f6f2;
+    background: #edcc61;
+    line-height:1.67em;
+    border-radius: 50%;
+}
+.mode512{
+    font-size: 3.75em;
+    color: #f9f6f2;
+    background: #edc850;
+    line-height:1.67em;
+    border-radius: 50%;
+}
+.mode1024{
+    font-size: 2.81em;
+    color: #f9f6f2;
+    background: #edc53f;
+    line-height:2.224em;
+    border-radius: 50%;
+}
+.mode2048{
+    font-size: 2.81em;
+    color: #f9f6f2;
+    background: #edc22e;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    line-height:2.224em;
+    border-radius: 50%;
+}
